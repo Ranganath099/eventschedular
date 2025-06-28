@@ -1,0 +1,30 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore events data file (contains runtime user data)
+events.json
+
+# Ignore test report files
+htmlcov/
+.coverage
+*.cover
+*.log
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore Postman generated files if unwanted
+*.postman_collection.json
